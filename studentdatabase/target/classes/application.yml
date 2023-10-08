@@ -1,0 +1,10 @@
+spring:
+datasource:
+username: SANTHOSH
+password: santhosh165@
+url: jdbc:mysql://localhost:3306/sbms
+driver_class_name: com.mysql.jdbc.Driver
+jpa:
+hibernate:
+    ddl-auto:update
+  show_sql:true
